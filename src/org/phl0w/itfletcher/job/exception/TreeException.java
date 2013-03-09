@@ -3,7 +3,7 @@ package org.phl0w.itfletcher.job.exception;
 public class TreeException extends Exception {
 
     public TreeException() {
-        super("Invalid TreeException instantiation!");
+        super("Invalid Tree instantiation!");
     }
 
     public TreeException(final String exception) {

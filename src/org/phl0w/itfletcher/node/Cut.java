@@ -9,7 +9,7 @@ public class Cut extends Node {
 
     @Override
     public boolean activate() {
-        return /*Inventory.contains(947) && Inventory.contains(iTFletcher.LOG) &&*/ !Bank.isOpen() &&
+        return Inventory.contains(947) && Inventory.contains(iTFletcher.LOG) && !Bank.isOpen() &&
                 Players.getLocal().getAnimation() == -1 && Widgets.getComponent(304, 12) == null;
     }
 
